@@ -28,6 +28,11 @@ The repository contains:
 
 See the `screenshots/` directory for a direct comparison of the UI before and after the Fluent UI-inspired restyling. These images clearly illustrate the extent of the visual improvements achieved.  
 
+### 🎬 Interactive Demo
+
+To truly appreciate the fluidity and responsiveness of the Fluent UI redesign, watch this short video showcasing key interactive elements, hover states, transitions, and animations applied purely through CSS:
+
+**https://github.com/LudwigGargoyle/fluentui-restyling-css/blob/main/screenshots/video-demo.mp4**
 ### 🛠️ Technologies Used  
 
 * **CSS3:** The primary technology utilized for all styling.
