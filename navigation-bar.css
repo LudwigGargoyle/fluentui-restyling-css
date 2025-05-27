@@ -1,0 +1,69 @@
+/* ======================
+   Navigation bar
+   ====================== */
+
+.main-menu-box {
+    background-color: var(--g2-color-bg-desktop);
+}
+
+.navbar-default {
+    background-image: none;
+    border-radius: var(--g2-border-radius-form);
+    border-color: var(--g2-color-border);
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav.main-menu-bar > li > a,
+.navbar-default .navbar-nav.navbar-right > li > a {
+    margin-top: var(--g2-spacing-xs) !important;
+    margin-bottom: var(--g2-spacing-xs) !important;
+    border-radius: var(--g2-border-radius-form) !important;
+    min-height: 38px;
+    /*font-weight: var(--g2-font-weight-semi-bold);*/
+}
+
+.navbar .navbar-right > .dropdown > button {
+    background-color: var(--g2-color-secondary) !important;
+    border-color: var(--g2-color-border-medium) !important;
+    color: var(--g2-color-text-light) !important;
+    /*font-weight: var(--g2-font-weight-semi-bold);*/
+    border-radius: var(--g2-border-radius-ext) !important;
+}
+
+.navbar .navbar-right > .dropdown > button:hover,
+.navbar .navbar-right > .dropdown > button:focus {
+    background-color: var(--g2-color-secondary-hover) !important;
+    border-color: var(--g2-color-border-strong) !important;
+
+}
+
+.navbar .navbar-right > .dropdown > button:active,
+.navbar .navbar-right > .dropdown.open > button {
+    background-color: var(--g2-color-secondary-active) !important;
+    border-color: var(--g2-color-border-strong) !important;
+}
+
+.navbar-default,
+.navbar-collapse,
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: var(--g2-color-bg-light);
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar .navbar-btn:not(.conn-menu-logged, .conn-menu-idle):hover,
+.navbar .navbar-btn:not(.conn-menu-logged, .conn-menu-idle):focus,
+.nav-tab > li > a:hover,
+.open > button.btn.btn-primary.navbar-btn:not(.conn-menu-logged, .conn-menu-idle).dropdown-toggle,
+.open > button.btn.btn-primary.navbar-btn:not(.conn-menu-logged, .conn-menu-idle).dropdown-toggle:focus {
+    background-color: var(--g2-color-bg-neutral-secondary);
+}
+
+.navbar-default .navbar-nav.main-menu-bar > .active > a,
+.nav-tabs > li.active > a {
+    color: var(--g2-color-primary-active) !important;
+    border-bottom: var(--g2-border-width-thicker) solid var(--g2-color-primary) !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
