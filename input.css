@@ -1,0 +1,33 @@
+/* ======================
+   Input
+   ====================== */
+
+input {
+    border: none !important;
+    box-shadow: unset !important;
+    box-shadow: unset !important;
+    border-bottom: var(--border-width-default) solid var(--color-border) !important;
+    font-weight: var(--font-weight-regular);
+    color: var(--color-text);
+    padding: var(--spacing-s) var(--spacing-sm);
+}
+
+input:not([readonly], [disabled]):focus {
+    border-bottom: var(--border-width-default) solid var(--color-border-focus) !important;
+}
+
+input[readonly], input[disabled] {
+    background-color: var(--color-bg-disabled) !important
+}
+
+input:hover:not([readonly], [disabled], :focus) {
+    border-bottom: var(--border-width-default) solid var(--color-border-dark) !important;
+}
+
+textarea {
+    border-radius: var(--border-radius-default) !important;
+}
+
+textarea:hover:not([readonly], [disabled], :focus) {
+    border: var(--border-width-default) solid var(--color-border-dark) !important;
+}
