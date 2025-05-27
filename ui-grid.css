@@ -1,0 +1,48 @@
+/* ======================
+   UI-Grid
+   ====================== */
+
+.ui-grid {
+    border: none;
+    outline: 0;
+}
+
+.ui-grid-render-container-left .ui-grid-top-panel {
+    border-top-left-radius: var(--border-radius-form);
+}
+
+.ui-grid-render-container-body .ui-grid-top-panel {
+    border-top-right-radius: var(--border-radius-form);
+}
+
+.ui-grid-header-cell {
+    border: var(--border-width-default) solid transparent;
+}
+
+.ui-grid-row,
+.ui-grid-cell,
+.grid-cell-editor,
+.grid-cell-editor-embedded-grid,
+.grid-cell-editor input,
+.grid-cell-editor-embedded-grid input,
+.grid-cell-editor select,
+.grid-cell-editor-embedded-grid select {
+    min-height: var(--height-input);
+}
+
+.ui-grid-top-panel {
+    font-weight: var(--font-weight-semi-bold) ;
+}
+
+.ui-grid-cell:not(:has(.cell-cursor)) {
+    border-right: none;
+}
+
+.ui-grid-row:nth-child(odd) .ui-grid-cell,
+.ui-grid-row:nth-child(even) .ui-grid-cell {
+    background-color: transparent;
+}
+
+.ui-grid-row:not(.ui-grid-row-selected) > [ui-grid-row] > .ui-grid-cell > .ui-grid-cell-contents {
+    border-bottom: var(--border-width-default) solid var(--color-border-light) !important;
+}
