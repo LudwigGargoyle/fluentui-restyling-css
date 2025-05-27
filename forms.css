@@ -1,0 +1,48 @@
+/* ======================
+   Form objects
+   ====================== */
+
+.business.moving {
+    box-shadow: 0 var(--spacing-s) var(--spacing-md) rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+}
+
+.nav-tabs > li > a {
+    font-weight: var(--font-weight-semi-bold) !important;
+    border: var(--color-bg-light) !important;
+    border-radius: var(--border-radius-ext);
+    margin-top: var(--spacing-xs);
+}
+
+.nav-tabs > li.active > a {
+    border-bottom: var(--border-width-thicker) solid var(--color-primary) !important;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.tab-content {
+    background-color: var(--color-bg-light);
+}
+
+.business.embedded .tab-content {
+    border-radius: var(--border-radius-form);
+    border: var(--border-width-default) solid var(--color-border);
+}
+
+.modal-dialog.focused .modal-header,
+.modal-dialog.focused .modal-title,
+.modal-controls {
+    background-color: var(--color-secondary);
+}
+
+.modal-content {
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius-form);
+}
+
+.modal-content .dropdown-menu,
+.navbar .navbar-right > .dropdown > .dropdown-menu {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px 0px;
+    border-radius: var(--border-radius-ext);
+    outline: transparent;
+}
