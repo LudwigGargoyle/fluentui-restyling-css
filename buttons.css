@@ -1,0 +1,99 @@
+/* ======================
+   Buttons
+   ====================== */
+
+.btn, .btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+    background-image: none !important;
+    box-shadow: none !important;
+    border-radius: var(--border-radius-form) !important;
+    text-shadow: none !important;
+}
+
+.editor-controls .btn-success,
+#GridEditCommit,
+.modal-header .mini-form-controls > .btn-success {
+    background-color: var(--color-accent-green);
+    color: var(--color-text-light);
+    font-weight: var(--font-weight-semi-bold);
+}
+
+.editor-controls .btn-success:hover,
+.editor-controls .btn-success:focus,
+#GridEditCommit:hover,
+#GridEditCommit:focus,
+.modal-header .mini-form-controls > .btn-success:hover,
+.modal-header .mini-form-controls > .btn-success:focus {
+    background-color: var(--color-accent-green-hover) !important;
+}
+
+.editor-controls .btn-success:active,
+#GridEditCommit:active,
+.modal-header .mini-form-controls > .btn-success:active {
+    background-color: var(--color-accent-green-active) !important;
+}
+
+.action-bar,
+.action-bar .btn,
+.btn-actionbar,
+.box-filters > div > button {
+    box-shadow: none !important;
+    background-image: none !important;
+    background-color: var(--color-bg-light);
+    border: var(--border-width-default) solid transparent;
+    outline: none;
+}
+
+.action-bar .btn.btn:not([disabled]):hover,
+.btn-actionbar.btn:not([disabled]):hover,
+.action-bar .btn.btn:not([disabled]):focus,
+.btn-actionbar.btn:not([disabled]):focus,
+.box-filters > div > button:not([disabled]):hover,
+.box-filters > div > button:not([disabled]):focus {
+    background-color: var(--color-bg-spdbtn-hover) !important;
+    border: var(--border-width-default) solid transparent !important;
+}
+
+.modal-body .btn-default:not(.btn-primary, [disabled]):hover,
+.modal-body .btn-default:not(.btn-primary, [disabled]):focus,
+.box-filters > form .btn-default:not([disabled]):hover,
+.box-filters > form .btn-default:not([disabled]):focus,
+.list-topbar .btn-success:not([disabled]):hover,
+.list-topbar .btn-success:not([disabled]):focus,
+.btn:has(.fa-arrow-left, .fa-arrow-right, .fa-arrow-up, .fa-arrow-down):not([disabled]):hover,
+.btn:has(.fa-arrow-left, .fa-arrow-right, .fa-arrow-up, .fa-arrow-down):not([disabled]):focus,
+.lookup-buttons .btn-primary:not([disabled]):hover,
+.lookup-buttons .btn-primary:not([disabled]):focus {
+    background-color: var(--color-bg-button-hover) !important;
+}
+
+.btn-filters.btn-warning {
+    background-image: none;
+    background-color: var(--color-accent-orange);
+    color: var(--color-text-light);
+    border-color: var(--color-accent-orange);
+}
+
+.btn-filters.btn-warning:hover,
+.btn-filters.btn-warning:focus {
+    border: var(--border-width-default) solid var(--color-accent-orange-hover-rev);
+}
+
+.btn-filters.btn-warning:active,
+.btn-filters.btn-warning.active {
+    background-color: var(--color-accent-orange-active-rev);
+}
+
+.modal-body .btn-default.btn-flt-reset,
+.box-filters .btn-default.btn-flt-reset {
+    background-image: none !important;
+    background-color: var(--color-accent-yellow) !important;
+    color: var(--color-text-dark) !important;
+}
+
+.modal-body .btn-default.btn-flt-reset:not([disabled]):hover,
+.box-filters .btn-default.btn-flt-reset:not([disabled]):hover,
+.modal-body .btn-default.btn-flt-reset:focus,
+.box-filters .btn-default.btn-flt-reset:focus {
+    border: var(--border-width-default) solid var(--color-primary) !important;
+    background-color: var(--color-accent-yellow-hover) !important;
+}
