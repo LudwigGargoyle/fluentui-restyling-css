@@ -32,7 +32,7 @@ See the `screenshots/` directory for a direct comparison of the UI before and af
 
 To truly appreciate the fluidity and responsiveness of the Fluent UI redesign, watch this short video showcasing key interactive elements, hover states, transitions, and animations applied purely through CSS:
 
-**https://github.com/LudwigGargoyle/fluentui-restyling-css/blob/main/screenshots/video-demo.mp4**
+**[https://github.com/LudwigGargoyle/fluentui-restyling-css/blob/main/screenshots/DashBoard_Fluent_UI.mp4](https://github.com/LudwigGargoyle/fluentui-restyling-css/blob/main/screenshots/DashBoard_Fluent_UI.mp4)**
 ### 🛠️ Technologies Used  
 
 * **CSS3:** The primary technology utilized for all styling.
