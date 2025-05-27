@@ -67,3 +67,56 @@
     border-bottom-left-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
 }
+
+.ribbon-box {
+    background-color: var(--color-bg-empty);
+    border-top: var(--border-width-default) solid var(--color-border);
+    box-shadow: var(--box-shadow);
+    margin: var(--spacing-s) var(--spacing-xs);
+    margin-top: 0;
+    border-radius: var(--border-radius-form);
+}
+
+.ribbon-head.item:hover,
+.ribbon-head.item:has(ul).opened {
+    background-color: var(--color-bg-ribbon-hover);
+    transition-property: background-color !important;
+    transition-duration: var(--transition-duration-default) !important;
+    transition-timing-function: var(--transition-timing-function) !important;
+    border: var(--border-width-default) solid rgb(0, 0, 0, 0.05);
+    border-top: var(--border-width-default) solid transparent;
+    border-bottom: var(--border-width-default) solid transparent;
+}
+
+.navbar .ribbon-head .dropdown-menu {
+    display: block;
+    background-image: none;
+    background-color: var(--color-bg-empty);
+    border-radius: var(--border-radius-ext);
+    border-top-left-radius: 0;
+    border: var(--border-width-default) solid var(--color-border-medium);
+    padding: var(--spacing-xs) var(--spacing-xs);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.9) translateY(-4px) translateX(-1px);
+    transform-origin: top left;
+    transition-property: opacity, transform !important;
+    transition-duration: var(--transition-duration-short) !important;
+    transition-timing-function: var(--transition-timing-function) !important;
+    transition-delay: 0;
+    box-shadow: var(--box-shadow-menu);
+}
+
+.navbar .ribbon-head.opened > .dropdown-menu .dropdown-submenu:hover > .dropdown-menu,
+.navbar .ribbon-head.opened > .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transition-property: opacity, transform !important;
+    transition-duration: var(--transition-duration-short) !important;
+    transition-timing-function: var(--transition-timing-function) !important;
+    transition-delay: 0;
+}
+
+.navbar .ribbon-head.opened > .dropdown-menu {
+    transform: scale(1) translateY(1px) translateX(-1px);
+}
