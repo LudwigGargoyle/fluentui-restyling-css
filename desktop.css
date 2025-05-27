@@ -1,0 +1,20 @@
+/* ======================
+   Desktop (Overall Layout and Effects)
+   ====================== */
+
+* {
+    transition: none !important;
+}
+
+#windows-area,
+#icons-area,
+#message-area {
+    background-color: var(--g2-color-bg-desktop);
+}
+
+#desktop:has(.modal-overlay) > #windows-area > .business.focused {
+    filter: blur(1px);
+    transition-property: filter !important;
+    transition-duration: var(--g2-transition-duration-default).2s !important;
+    transition-timing-function: var(--g2-transition-timing-function) !important;
+}
