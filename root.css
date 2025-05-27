@@ -1,4 +1,6 @@
-/* modern theme */
+/* ======================
+   Root Variables (Theme Definition)
+   ====================== */
 
 :root {
     --g2-color-primary: #0078D4;       /* Microsoft Blue */
