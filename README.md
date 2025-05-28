@@ -26,6 +26,9 @@ This project serves as a demonstration of advanced CSS capabilities and a strong
 
 The primary objective was to breathe new life into an outdated application interface, making it feel contemporary and intuitive, without incurring the high costs and risks associated with refactoring legacy HTML and JavaScript. This project demonstrates how focused CSS efforts can yield significant improvements in product presentation and user perception.
 
+> ⚠️ **Note on `!important` usage:**  
+> Some CSS rules use `!important` to enforce styles on deeply nested or structurally rigid elements. This is a deliberate choice due to the inability to refactor the existing HTML structure. The goal is to achieve a consistent visual update without disrupting legacy markup.
+
 ---
 
 ### 📂 Repository Structure
