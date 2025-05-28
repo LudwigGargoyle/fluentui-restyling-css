@@ -32,7 +32,7 @@ The primary objective was to breathe new life into an outdated application inter
 
 The repository contains:
 
-* **`css/`**: This directory holds the extracted and modularized CSS files, each focusing on a specific UI component or design aspect (e.g., `navbar.css`, `forms.css`, `ui-grid.css`).
+* **`css/`**: This directory contains modularized CSS files, extracted from over 1500 lines of restyled CSS and organized by UI component or design aspect (e.g., `navbar.css`, `forms.css`, `ui-grid.css`).
 * **`screenshots/`**: Contains "Before" and "After" images showcasing the visual transformation of key application sections.
 
 ---
